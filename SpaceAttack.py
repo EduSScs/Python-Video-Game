@@ -9,21 +9,21 @@ WINDOW = pygame.display.set_mode((SCREEN_SIZE, SCREEN_SIZE))
 pygame.display.set_caption('Space Attack')
 
 # Get Background
-BACKGROUND = pygame.transform.scale(pygame.image.load(os.path.join('Content/assets', 'space_background.png')), (SCREEN_SIZE, SCREEN_SIZE))
+BACKGROUND = pygame.transform.scale(pygame.image.load(os.path.join('Content', 'space_background.png')), (SCREEN_SIZE, SCREEN_SIZE))
 
 # Get Spaceships Images
-PLAYER_SHIP = pygame.image.load(os.path.join('Content/assets', 'player_spaceship.png'))
-PURPLE_ALIEN = pygame.image.load(os.path.join('Content/assets', 'purple_alien.png'))
-BLUE_SHIP = pygame.image.load(os.path.join('Content/assets', 'blue_ship.png'))
-RED_SHIP = pygame.image.load(os.path.join('Content/assets', 'red_ship.png'))
-ASTEROID = pygame.image.load(os.path.join('Content/assets', 'asteroid.png'))
+PLAYER_SHIP = pygame.image.load(os.path.join('Content', 'player_spaceship.png'))
+PURPLE_ALIEN = pygame.image.load(os.path.join('Content', 'purple_alien.png'))
+BLUE_SHIP = pygame.image.load(os.path.join('Content', 'blue_ship.png'))
+RED_SHIP = pygame.image.load(os.path.join('Content', 'red_ship.png'))
+ASTEROID = pygame.image.load(os.path.join('Content', 'asteroid.png'))
 # Laser Images
 
-BLAST = pygame.image.load(os.path.join('Content/assets', 'blast.png'))
-ALIEN_SPIT = pygame.image.load(os.path.join('Content/assets', 'alien_spit.png'))
-ENEMY_FIRE = pygame.image.load(os.path.join('Content/assets', 'enemy_fire.png'))
-RED_LASER = pygame.image.load(os.path.join('Content/assets', 'pixel_laser_red.png'))
-YELLOW_LASER = pygame.image.load(os.path.join('Content/assets', 'pixel_laser_yellow.png'))
+BLAST = pygame.image.load(os.path.join('Content', 'blast.png'))
+ALIEN_SPIT = pygame.image.load(os.path.join('Content', 'alien_spit.png'))
+ENEMY_FIRE = pygame.image.load(os.path.join('Content', 'enemy_fire.png'))
+RED_LASER = pygame.image.load(os.path.join('Content', 'pixel_laser_red.png'))
+YELLOW_LASER = pygame.image.load(os.path.join('Content', 'pixel_laser_yellow.png'))
 
 class SpaceShip:
     CD = 15
